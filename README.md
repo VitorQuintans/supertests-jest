@@ -1,10 +1,10 @@
-API com Testes Automatizados - Jest + Supertest
+🚀 API com Testes Automatizados - Jest + Supertest
 
 Este projeto é um exemplo de API REST simples desenvolvida com Node.js e Express, com testes automatizados utilizando Jest e Supertest.
 
 O objetivo é demonstrar boas práticas no desenvolvimento e teste de APIs, servindo como um material de estudo e referência.
 
-Tecnologias utilizadas:
+🛠️ Tecnologias utilizadas:
 
 Node.js
 
@@ -14,7 +14,7 @@ Jest
 
 Supertest
 
-Estrutura do projeto:
+📁 Estrutura do projeto:
 
 app.js: Configuração principal da aplicação.
 
@@ -28,7 +28,7 @@ package.json
 
 README
 
-Funcionalidades da API:
+⚙️ Funcionalidades da API:
 
 GET /ping → Retorna { message: 'pong' }
 
@@ -42,7 +42,7 @@ PUT /users/:id → Atualiza um usuário existente
 
 DELETE /users/:id → Remove um usuário
 
-Funcionalidades testadas:
+✅ Funcionalidades testadas:
 
 Testes realizados:
 
@@ -56,7 +56,7 @@ Com nome vazio → Deve retornar 400 Bad Request.
 
 Os testes são executados com Jest e as requisições simuladas com Supertest.
 
-Como executar o projeto:
+🚀 Como executar o projeto:
 
 Clone o repositório;
 
@@ -68,11 +68,11 @@ npm test
 ou diretamente com Jest:
 npx jest
 
-Exemplos de comandos:
+💻 Exemplos de comandos:
 
 npm test → Para rodar os testes automatizados.
 
-Aprendizados:
+📚 Aprendizados:
 
 Configuração de testes automatizados com Jest.
 
@@ -82,21 +82,20 @@ Organização de código com routes e data separados.
 
 Implementação de testes para cenários positivos e negativos.
 
-Pré-requisitos:
+📋 Pré-requisitos:
 
 Node.js versão 14 ou superior.
 
 npm versão 6 ou superior.
 
-Autor:
+👨‍💻 Autor:
 
 Feito com dedicação por Vitor.
 
-LinkedIn: [https://www.linkedin.com/](https://www.linkedin.com/in/vitor-quintans-qa-engineer-automation-a96a64221/)
-GitHub: [https://github.com/seu-usuario](https://github.com/VitorQuintans)
+LinkedIn: https://www.linkedin.com/in/vitor-quintans-qa-engineer-automation-a96a64221/
+GitHub: https://github.com/VitorQuintans
 
-Licença:
+📄 Licença:
 
 Este projeto está sob a licença MIT.
 Sinta-se livre para usar, estudar e contribuir.
-
